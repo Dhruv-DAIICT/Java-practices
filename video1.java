@@ -30,3 +30,7 @@ class FirstClass{
     }
   }
   */
+
+  /*
+   * comiled with javac filename.java and run with java filename
+   */
