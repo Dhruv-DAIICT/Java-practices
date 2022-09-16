@@ -22,6 +22,7 @@ public class video2 {
         System.out.println(name);
 
         double mul = age * weight;
+        System.out.println(mul);
 
         //java => typed langauge
         /*
@@ -40,20 +41,21 @@ public class video2 {
          * no need to write in javaScript 
          */
 
-         //input in java 
-         Scanner sc = new Scanner(System.in);
-        //  String fname = sc.next();
-        //  String lanme = sc.nextLine();
-         /*
-          * nextFloat()
-          nextInt()
-          */
-          System.out.println("Enter a:");
-          int a = sc.nextInt();
-          System.out.println("Enter b:");
-          int b = sc.nextInt();
-          int sum = a+b;
-          System.out.println(sum);
+         try (//input in java 
+        Scanner sc = new Scanner(System.in)) {
+            //  String fname = sc.next();
+            //  String lanme = sc.nextLine();
+             /*
+              * nextFloat()
+              nextInt()
+              */
+              System.out.println("Enter a:");
+              int a = sc.nextInt();
+              System.out.println("Enter b:");
+              int b = sc.nextInt();
+              int sum = a+b;
+              System.out.println(sum);
+        }
 
     }
 }
