@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch video5",
+            "request": "launch",
+            "mainClass": "video5",
+            "projectName": "Java-practices_cea35f62"
+        },
+        {
+            "type": "java",
+            "name": "Launch video4",
+            "request": "launch",
+            "mainClass": "video4",
+            "projectName": "Java-practices_cea35f62"
+        },
+        {
+            "type": "java",
             "name": "Launch video3",
             "request": "launch",
             "mainClass": "video3",
